@@ -7,7 +7,7 @@ int main() {
     printf("Digite um numero inteiro: ");
     scanf("%d", &input);
     
-    printf("\nO valor ao quadrado: %d", (input * input));
+    printf("\nO quadrado é: %d", (input * input));
 
     return 0;
 
