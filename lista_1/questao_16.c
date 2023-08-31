@@ -2,24 +2,23 @@
 
 int main() {
 
-    float horaAula;
-    int horaTrabalhada;
-    int percentualINSS;
+    float Aula;
+        int Trabalhado;
+    int INSS;
 
     printf("Digite o valor da hora aula: ");
-    scanf("%f", &horaAula);
+    scanf("%f", &Aula);
 
     printf("Digite a quantia de horas trabalhadas: ");
-    scanf("%d", &horaTrabalhada);
+    scanf("%d", &Trabalhado);
 
     printf("Digite o percentual do INSS (%%): ");
-    scanf("%d", &percentualINSS);
+    scanf("%d", &INSS);
 
-    puts("\n---------- FOLHA DE PAGAMENTO ----------\n");
 
-    printf("Salario bruto: %.2f\n\n", (horaAula * horaTrabalhada));
-    printf("Desconto INSS: %.2f\n\n", ((horaAula * horaTrabalhada) * (percentualINSS / 100.0)));
-    printf("SALARIO LIQUIDO: %.2f\n\n", ((horaAula * horaTrabalhada) - (horaAula * horaTrabalhada) * (percentualINSS / 100.0)));
+    printf("Salario bruto: %.2f\n\n", (Aula * Trabalhado));
+    printf("Desconto INSS: %.2f\n\n", ((Aula * Trabalhado) * (INSS / 100.0)));
+    printf("Salario liquido: %.2f\n\n", ((Aula * Trabalhado) - (Aula * Trabalhado) * (INSS / 100.0)));
 
     return 0;
 
