@@ -11,7 +11,6 @@ int main() {
     
     salarioTotal = dias * salarioDia;
     
-    puts("\n---------- FOLHA DE PAGAMENTO ----------\n");
 
     printf("Salario por dia: %.2f\n\nSalario Bruto: %.2f\n\n", salarioDia, salarioTotal);
 
