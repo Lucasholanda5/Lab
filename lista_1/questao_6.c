@@ -2,12 +2,12 @@
 
 int main() {
 
-    char sexo;
-    float altura;
-    float peso;
+    char s;
+    float a;
+    float p;
     
-    printf("Insira seu sexo (M/F) e altura em metros Ex:(M 1.90): ");
-    scanf(" %c %f", &sexo, &altura);
+    printf("Insira seu sexo e altura em metros: ");
+    scanf(" %c %f", &s, &a);
     
     if (sexo == 'M') {
 
