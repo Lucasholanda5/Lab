@@ -2,16 +2,16 @@
 
 int main() {
 
-    float dolar;
-    float qntdReais;
+    float d;
+    float r;
 
-    printf("Insira a cotacao do dolar atual: $");
-    scanf("%f", &dolar);
+    printf("Informe a cotacao do dolar atual: ");
+    scanf("%f", &d);
     
-    printf("\nInsira a quantidade em R$ (Reais) a converter: R$");
-    scanf("%f", &qntdReais);
+    printf("\nInsira a quantidade a converter: R$");
+    scanf("%f", &r);
 
-    printf("\nValor em dolar: $%f", qntdReais / dolar);
+    printf("\nValor em dolar: $%f", r / d);
 
 
     return 0;
