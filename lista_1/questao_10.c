@@ -2,14 +2,14 @@
 
 int main() {
 
-    float comp;
-    float larg;
-    float altu;
+    float c;
+    float l;
+    float a;
 
-    printf("Digite o comprimento, a largura e a altura do volume a medir (C L A): ");
-    scanf(" %f %f %f", &comp, &larg, &altu);
+    printf("Informe o comprimento, a largura e a altura: ");
+    scanf(" %f %f %f", &c, &l, &a);
     
-    printf("\nO volume calculado: %f", (comp * larg * altu));
+    printf("\nO volume calculado é: %f", (c * l * a));
 
     return 0;
 
