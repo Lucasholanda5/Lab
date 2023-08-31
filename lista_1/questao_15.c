@@ -3,7 +3,7 @@
 int main() {
 
     int dias;
-    float salarioDia = 50.25;
+    float salarioDia = 41.50;
     float salarioTotal;
     
     printf("Digite o numero de dias trabalhados: ");
