@@ -2,24 +2,24 @@
 
 int main() {
     
-    int segInput, horas = 0, minutos = 0, segundos = 0;
+    int n, h = 0, m = 0, s = 0;
 
-    printf("Digite uma quantidade de segundos: ");
-    scanf("%d", &segInput);
+    printf("Informe a quantidade de segundos: ");
+    scanf("%d", &n);
 
-    if (segInput >= 3600) {
-        horas = segInput / 3600;
-        segInput = segInput % 3600;
+    if (n >= 3600) {
+        h = n / 3600;
+        n = n % 3600;
     }
 
     if (segInput >= 60) {
-        minutos = segInput / 60;
-        segInput = segInput % 60;
+        m = n / 60;
+        n = n % 60;
     }
 
-    segundos = segInput;
+    s = n;
 
-    puts("\nO valor em horas, minutos e segundos da quantidade dada (H:M:S):");
+    puts("\nO valor em horas, minutos e segundos é:");
     printf("%d:%d:%d", horas, minutos, segundos);
 
     return 0;
