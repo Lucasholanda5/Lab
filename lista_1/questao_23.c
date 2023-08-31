@@ -2,16 +2,16 @@
 
 int main() {
     
-    int input, digito1, digito2, digito3;
+    int n, num1, num2, num3;
 
     printf("Digite um numero inteiro de 3 digitos: ");
-    scanf("%d", &input);
+    scanf("%d", &n);
 
-    digito1 = input / 100;
-    digito2 = (input / 10) % 10;
-    digito3 = input % 10;
+    num1 = n / 100;
+    num2 = (n / 10) % 10;
+    num3 = n % 10;
 
-    int inverso = digito3 * 100 + digito2 * 10 + digito1;
+    int inverso = num3 * 100 + num2 * 10 + num1;
     printf("Numero em ordem inversa: %d", inverso);
 
     return 0;
