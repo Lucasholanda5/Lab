@@ -1,25 +1,25 @@
 #include <stdio.h>
 
 int main() {
-    int hora;
-    int minu;
-    int segu;
+    int h;
+    int m;
+    int s;
     
-    printf("Digite um horario (H M S): ");
-    scanf(" %d %d %d", &hora, &minu, &segu);
+    printf("Digite um horário: ");
+    scanf(" %d %d %d", &h, &m, &s);
     
-    if (minu >= 60) {
+    if (m >= 60) {
 
         printf("Numero de minutos maior de 60");
         return 1;
 
-    } else if (segu >= 60) {
+    } else if (s >= 60) {
 
         printf("Numero de segundos maior de 60");
         return 1;
     }    
     
-    printf("\nHorario dado em segundos: %d", (hora * 3600 + minu * 60 + segu));
+    printf("\nHorario dado em segundos: %d", (h * 3600 + m * 60 + s));
 
     return 0;
 
